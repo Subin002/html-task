@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .aa {
+        background-color: rgb(237, 247, 255);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    table {
+        border: solid black;
+        border-collapse: collapse;
+        background-color: white;
+        width: 40%;
+    }
+
+    td,
+    th {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(207, 207, 207);
+    }
+    .main_content
+    {
+        border: 2px solid grey;
+        background-color: gray;
+        width: 400px;
+        height: 350px;
+
+    }
+    .sub_content
+    {
+        margin: 40px;
+    }
+    label
+    {
+        padding: 20px;
+    }
+    input[type="text"]
+    {
+        padding: 5px;
+        margin-left: px;
+    }
+    input[type="radio"]
+    {
+        padding: 10px;
+        margin-left: px;
+    }
+    .radio
+    {
+        margin-left:-21px
+    }
+
+    input[type="number"]
+    {
+        padding: 5px;
+        margin-left: px;
+    }
+    .ab{
+    margin-left: 90px;
+    }
+</style>
+
+<body>
+    <div class="aa">
+        <div class="dd">
+            <h2>List of Persons</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Lohitha</td>
+                    <td>Female</td>
+                    <td>22</td>
+                    <td>Palakkad</td>
+                    <td>Update/Remove</td>
+                </tr>
+                <tr>
+                    <td>Freena</td>
+                    <td>Female</td>
+                    <td>23</td>
+                    <td>Wayanad</td>
+                    <td>Update/Remove</td>
+                </tr>
+                <tr>
+                    <td>Subin</td>
+                    <td>Male</td>
+                    <td>21</td>
+                    <td>Palakkad</td>
+                    <td>Update/Remove</td>
+                </tr>
+                <tr>
+                    <td>Anjali</td>
+                    <td>Female</td>
+                    <td>23</td>
+                    <td>Palakkad</td>
+                    <td>Update/Remove</td>
+                </tr>
+            </table>
+        </div>
+        <div class="cc">
+            <h2>Add/Update Person Form</h2>
+            <div class="main_content">
+                <div class="sub_content">
+                    <label>Name:</label>
+                    <input type="text" placeholder="name">
+                    <br>
+                    <br>
+                    <label>gender:</label>
+                    <input type="radio" name="a">
+                    <label class="radio">male</label>
+                    <input type="radio" name="a">
+                    <label class="radio">Female</label>
+                    <br>
+                    <br>
+                    <label>Age:</label>
+                    <input class="ab" type="number" placeholder="age">
+                    <br>
+                    <br>
+                    <label>City:</label>
+                    <select>
+                        <option>pkd</option>
+                        <option>tvm</option>
+                        <option>ekm</option>
+                    </select>
+                    <br>
+                    <button>reset</button>
+                    <button>Add</button>
+                    <button>Update</button>
+                </div>
+               
+
+                
+
+            </div>  
+        </div>
+    </div>
+</body>
+
+</html>
